@@ -7,16 +7,21 @@
         <title>Project 1 Portfolio Joy Thomas</title>
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
         <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div class="container">
             <header class="header">
                 <div class="row">
-                    <div class="col-md-2 title-myphoto"><img class="img-circle" src="images/myphoto.jpg" alt="My Photo"></div>
-                    <div class="col-md-10 text-right text-uppercase">
+                    <div class="col-md-2 title-myphoto">
+                        <picture>
+                            <source media="(max-width: 418px)" srcset="images/myphotosmall.jpg">
+                            <img class="img-circle" src="images/myphoto.jpg" alt="My Photo">
+                        </picture>
+                    </div>
+                    <div class="col-md-10 title-name text-right text-uppercase">
                         <h1 class="text-thin title-super">Joy Thomas</h1>
                         <h4>Front-end Developer</h4>
                     </div>

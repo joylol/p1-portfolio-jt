@@ -87,10 +87,8 @@ a {
     background-color: #fff;
     width: 200px;
     position: absolute;
-    /* This trasform moves the drawer off canvas. */
     -webkit-transform: translate(-300px, 0);
     transform: translate(-300px, 0);
-    /* Optionally, we animate the drawer. */
     transition: transform 0.3s ease;
   }
   .nav.open {
@@ -114,5 +112,16 @@ a {
   .header-menu svg {
     width: 15vw;
     fill: #E9A581;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .title-name {
+    text-align: center;
+  }
+  .img-circle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
