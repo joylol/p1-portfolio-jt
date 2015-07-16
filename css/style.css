@@ -1,0 +1,118 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #0D94CB;
+  font-weight: 300;
+}
+.text-muted {
+  color: #E9A581;
+  font-size: 5vmax;
+}
+.text-thin {
+  font-weight: 300;
+}
+
+.title-super {
+  font-size: 6.5vmax;
+}
+
+.project-super {
+  font-size: 4.5vmax;
+}
+
+.title-myphoto {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.modal-body {
+  font-size: 20px;
+}
+
+.header-border {
+  background-color: #E9D8C1;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 3px;
+}
+
+h4 {
+  color: #912E12;
+  font-size: 3.5vmax;
+}
+
+a {
+  color: #912E12;
+  font-size: 2.5vmax;
+}
+
+.img-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.header-menu {
+  display: none;
+}
+.nav_item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  line-height: 24px;
+  padding: 24px;
+  text-transform: uppercase;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+@media screen and (max-width: 500px){
+  .nav {
+    z-index: 10;
+    background-color: #fff;
+    width: 200px;
+    position: absolute;
+    /* This trasform moves the drawer off canvas. */
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    /* Optionally, we animate the drawer. */
+    transition: transform 0.3s ease;
+  }
+  .nav.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    padding-left: 25px;
+  }
+  .nav_item {
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    text-align: center;
+  }
+  .header-menu {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1em;
+  }
+  .header-menu svg {
+    width: 15vw;
+    fill: #E9A581;
+  }
+}

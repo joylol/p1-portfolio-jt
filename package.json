@@ -1,0 +1,7 @@
+{
+  "name": "FE-P1-Portfolio-JT",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  }
+}
