@@ -1,14 +1,16 @@
 body {
-  font-family: 'Lato', sans-serif;
-  color: #0D94CB;
+  font-family: "Lato", sans-serif;
+  color: #0d94cb;
   font-weight: 300;
 }
+
 .text-muted {
-  color: #E9A581;
+  color: #e9a581;
   font-size: 5vmax;
 }
+
 .text-thin {
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .title-super {
@@ -20,8 +22,7 @@ body {
 }
 
 .title-myphoto {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0px 20px 0px;
 }
 
 .modal-body {
@@ -29,33 +30,28 @@ body {
 }
 
 .header-border {
-  background-color: #E9D8C1;
-  padding-bottom: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
+  background-color: #e9d8c1;
   height: 3px;
 }
 
 h4 {
-  color: #912E12;
+  color: #912e12;
   font-size: 3.5vmax;
 }
 
 a {
-  color: #912E12;
+  color: #912e12;
   font-size: 2.5vmax;
 }
 
 .img-responsive {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto 0px auto;
 }
 
 .nav {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto 0px auto;
 }
 
 .nav-list {
@@ -67,6 +63,7 @@ a {
 .header-menu {
   display: none;
 }
+
 .nav_item {
   box-sizing: border-box;
   display: inline-block;
@@ -83,7 +80,7 @@ a {
 
 @media screen and (max-width: 500px){
   .nav {
-    z-index: 10;
+    z-index: 1;
     background-color: #fff;
     width: 200px;
     position: absolute;
@@ -91,17 +88,20 @@ a {
     transform: translate(-300px, 0);
     transition: transform 0.3s ease;
   }
+
   .nav.open {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
-    padding-left: 25px;
+    padding: 0px 0px 0px 25px;
   }
+
   .nav_item {
     display: list-item;
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: 1px solid #e0e0e0;
     width: 100%;
     text-align: center;
   }
+
   .header-menu {
     display: inline-block;
     position: absolute;
@@ -109,9 +109,10 @@ a {
     top: 0;
     padding: 1em;
   }
+
   .header-menu svg {
     width: 15vw;
-    fill: #E9A581;
+    fill: #e9a581;
   }
 }
 
@@ -119,9 +120,9 @@ a {
   .title-name {
     text-align: center;
   }
+
   .img-circle {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 0px auto;
   }
 }
