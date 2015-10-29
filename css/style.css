@@ -6,7 +6,7 @@ body {
 
 .text-muted {
   color: #e9a581;
-  font-size: 5vmax;
+  font-size: 4.5vmax;
 }
 
 .text-thin {
@@ -14,11 +14,11 @@ body {
 }
 
 .title-super {
-  font-size: 6.5vmax;
+  font-size: 5.5vmax;
 }
 
 .project-super {
-  font-size: 4.5vmax;
+  font-size: 2vmax;
 }
 
 .title-myphoto {
@@ -36,12 +36,28 @@ body {
 
 h4 {
   color: #912e12;
-  font-size: 3.5vmax;
+  font-size: 2.5vmax;
+}
+
+h3 {
+  margin-bottom: 0px;
 }
 
 a {
   color: #912e12;
-  font-size: 2.5vmax;
+  font-size: 2vmax;
+}
+
+p {
+  margin-bottom: 4vmax;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.project-link {
+  font-size: 1.5vmax;
 }
 
 .img-responsive {
@@ -113,6 +129,49 @@ a {
   .header-menu svg {
     width: 15vw;
     fill: #e9a581;
+  }
+
+  .text-muted {
+    color: #e9a581;
+    font-size: 6vmax;
+  }
+
+  .title-super {
+    font-size: 8.5vmax;
+    weight: 300;
+  }
+
+  .project-super {
+    margin-top: 3px;
+    font-size: 4.5vmax;
+  }
+
+  .title-myphoto {
+    margin: 20px 0px 20px 0px;
+  }
+
+  .modal-body {
+    font-size: 20px;
+  }
+
+  .header-border {
+    background-color: #e9d8c1;
+    height: 3px;
+  }
+
+  h4 {
+    color: #912e12;
+    font-size: 4.5vmax;
+  }
+
+  a {
+    color: #912e12;
+    font-size: 4vmax;
+  }
+
+
+  .project-link {
+    font-size: 3.5vmax;
   }
 }
 
